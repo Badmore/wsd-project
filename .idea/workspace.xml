@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/LinkedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/TwoPointersOfLinkedCycle.java" afterDir="false" />
+    <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/stack/StackOfMin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,5 +153,9 @@
       <updated>1708503402907</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加最小栈获取" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加最小栈获取" />
   </component>
 </project>
