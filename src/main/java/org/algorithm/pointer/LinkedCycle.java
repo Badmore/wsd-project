@@ -32,6 +32,10 @@ public class LinkedCycle {
         node4.next = node5;
         node5.next = node2;
         System.out.println(isCycle(node1));
+
+        System.out.println(cycleLength(node1));
+
+        System.out.println(getCycleStart(node1).data);
     }
 
     private static boolean isCycle(Node head) {
@@ -45,6 +49,47 @@ public class LinkedCycle {
             }
         }
         return false;
+    }
+
+    private static int cycleLength(Node head) {
+        Node p1  = head, p2 = head;
+        int lengthCounter = 0;
+        boolean isCounter = false;
+        while (p2 != null && p2.next != null) {
+            p1 = p1.next;
+            p2 = p2.next.next;
+            if(isCounter) {
+                lengthCounter++;
+            }
+            if(p1 == p2) {
+                if(!isCounter) {
+                    isCounter = true;
+                } else {
+                    return lengthCounter;
+                }
+            }
+        }
+        return lengthCounter;
+    }
+
+    private static Node getCycleStart(Node head) {
+        Node p1 = head, p2 = head, p3 = head;
+        boolean isCounter = false;
+        while (p2 != null && p2.next != null) {
+            p1 = p1.next;
+            p2 = p2.next.next;
+            if(isCounter) {
+                p3 = p3.next;
+            }
+            if(p1 == p2){
+                if(!isCounter) {
+                    isCounter = true;
+                } else {
+                    return p3;
+                }
+            }
+        }
+        return null;
     }
 
 }
