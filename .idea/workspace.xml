@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/LinkedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/LinkedCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/LinkedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/pointer/TwoPointersOfLinkedCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedCycle">
+  <component name="RunManager" selected="Application.StackOfMin">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.BubbleSort" />
       <module name="wsd-project.main" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.HeapSort" />
+    <configuration name="StackOfMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.stack.StackOfMin" />
       <module name="wsd-project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="PATTERN" value="org.algorithm.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.LinkedCycle" />
+    <configuration name="TwoPointersOfLinkedCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.TwoPointersOfLinkedCycle" />
       <module name="wsd-project.main" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedCycle" />
+        <item itemvalue="Application.StackOfMin" />
+        <item itemvalue="Application.TwoPointersOfLinkedCycle" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BucketSort" />
         <item itemvalue="Application.CountingSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
