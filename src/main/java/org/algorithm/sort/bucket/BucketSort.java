@@ -1,4 +1,4 @@
-package org.algorithm.sort;
+package org.algorithm.sort.bucket;
 
 import java.util.*;
 
@@ -67,5 +67,5 @@ public class BucketSort {
         double[] doubles = new BucketSort().bucketSort(array);
         System.out.println(Arrays.toString(doubles));
     }
-
 }
+
