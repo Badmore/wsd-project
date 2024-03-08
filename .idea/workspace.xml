@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/bit/BitGcd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/bit/BitPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/sort/bucket/MaxSortedDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithm/sort/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/sort/bucket/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/thought/DynamicPlaning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/thought/Greedy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSortedDistance">
+  <component name="RunManager" selected="Application.DynamicPlaning">
     <configuration name="BitGcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitGcd" />
       <module name="wsd-project.main" />
@@ -98,6 +95,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicPlaning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.thought.DynamicPlaning" />
+      <module name="wsd-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.thought.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.thought.Greedy" />
+      <module name="wsd-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.thought.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxSortedDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.bucket.MaxSortedDistance" />
       <module name="wsd-project.main" />
@@ -111,39 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOfMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.stack.StackOfMin" />
-      <module name="wsd-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoPointersOfLinkedCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.TwoPointersOfLinkedCycle" />
-      <module name="wsd-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.pointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicPlaning" />
+        <item itemvalue="Application.Greedy" />
         <item itemvalue="Application.MaxSortedDistance" />
         <item itemvalue="Application.BitPower" />
         <item itemvalue="Application.BitGcd" />
-        <item itemvalue="Application.StackOfMin" />
-        <item itemvalue="Application.TwoPointersOfLinkedCycle" />
       </list>
     </recent_temporary>
   </component>
