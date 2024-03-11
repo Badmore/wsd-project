@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/thought/DynamicPlaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/thought/Greedy.java" afterDir="false" />
-    </list>
+    <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

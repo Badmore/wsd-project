@@ -32,6 +32,7 @@ public class DynamicPlaning {
         //当人数小于挖矿所需人数
         if(w < p[n - 1]) {
             return memo[n - 1] = getBest(w, n - 1, p, g, memo);
+
         }
         //计算挖与不挖此矿的最优解，即适用当前资源不采集与采集的区别
         return memo[n - 1] = Math.max(getBest(w, n-1, p, g, memo), getBest(w-p[n-1], n-1, p, g, memo) + g[n-1]);
