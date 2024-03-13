@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/bit/BitLostNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/bit/BitMapOfLabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithm/sort/bucket/MaxSortedDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithm/sort/bucket/MaxSortedDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitMapOfLabel">
+  <component name="RunManager" selected="Application.MaxSortedDistance">
     <configuration name="BitGcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitGcd" />
       <module name="wsd-project.main" />
@@ -109,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicPlaning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.thought.DynamicPlaning" />
+    <configuration name="BitPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitPower" />
       <module name="wsd-project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.thought.*" />
+          <option name="PATTERN" value="org.algorithm.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.thought.Greedy" />
+    <configuration name="MaxSortedDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.bucket.MaxSortedDistance" />
       <module name="wsd-project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.thought.*" />
+          <option name="PATTERN" value="org.algorithm.sort.bucket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSortedDistance" />
+        <item itemvalue="Application.BitPower" />
         <item itemvalue="Application.BitMapOfLabel" />
         <item itemvalue="Application.BitLostNum" />
         <item itemvalue="Application.BitGcd" />
-        <item itemvalue="Application.DynamicPlaning" />
-        <item itemvalue="Application.Greedy" />
       </list>
     </recent_temporary>
   </component>
