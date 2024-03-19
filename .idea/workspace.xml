@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="增加最小栈获取">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,35 +53,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/wanba/badmore/testgit/wsd-project",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wanba/badmore/testgit/wsd-project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/wsd-algorithm/src/" />
+      <recent name="$PROJECT_DIR$/wsd-algorithm/src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSortedDistance">
-    <configuration name="BitGcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitGcd" />
-      <module name="wsd-project.main" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="AlgorithmVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.visualizer.AlgorithmVisualizer" />
+      <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.bit.*" />
+          <option name="PATTERN" value="org.visualizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitLostNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitLostNum" />
-      <module name="wsd-project.main" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.HeapSort" />
+      <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.bit.*" />
+          <option name="PATTERN" value="org.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,52 +107,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitMapOfLabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitMapOfLabel" />
-      <module name="wsd-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.bit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="wsd-project.wsd-algorithm.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.bit.BitPower" />
-      <module name="wsd-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.bit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="wsd-project.wsd-algorithm.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSortedDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.bucket.MaxSortedDistance" />
-      <module name="wsd-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.sort.bucket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="wsd-project [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxSortedDistance" />
-        <item itemvalue="Application.BitPower" />
-        <item itemvalue="Application.BitMapOfLabel" />
-        <item itemvalue="Application.BitLostNum" />
-        <item itemvalue="Application.BitGcd" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.AlgorithmVisualizer" />
+        <item itemvalue="Gradle.wsd-project [clean]" />
       </list>
     </recent_temporary>
   </component>
