@@ -1,7 +1,5 @@
 package org.algorithm.sort;
 
-import java.rmi.server.ExportException;
-
 /**
  * <h3>wsd-project</h3>
  * <p>希尔排序</p>
