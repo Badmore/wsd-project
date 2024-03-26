@@ -15,7 +15,7 @@ public class ShellSort extends ExampleSort {
             for (int j = gap; j < arr.length; j++) {
                 for(int h = j ; h >= gap && less(arr[h], arr[h - gap]); h -= gap) {
                     exchange(arr, h, h - gap);
-                    System.out.println("gap =" + gap + ", j = " + j +  ", h = " + h + ", h - gap =" + (h - gap));
+//                    System.out.println("gap =" + gap + ", j = " + j +  ", h = " + h + ", h - gap =" + (h - gap));
                 }
             }
         }
