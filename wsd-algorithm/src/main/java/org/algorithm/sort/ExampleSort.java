@@ -39,11 +39,12 @@ public abstract class ExampleSort {
     }
 
     protected void run(){
-        Integer[] array = new Random(10000).ints(0, 10000).distinct().limit(9999).boxed().toArray(Integer[]::new);
+        Integer[] array = new Random(10000).ints(0, 10000).distinct().limit(20).boxed().toArray(Integer[]::new);
         long start = System.currentTimeMillis();
         System.out.println("开始: ");
         sort(array);
         System.out.println("总耗时 " + (System.currentTimeMillis() - start ));
         isSorted(array);
+        System.out.println(Arrays.toString(array));
     }
 }
