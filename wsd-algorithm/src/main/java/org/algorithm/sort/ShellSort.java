@@ -1,5 +1,8 @@
 package org.algorithm.sort;
 
+import java.util.Arrays;
+import java.util.Random;
+
 /**
  * <h3>wsd-project</h3>
  * <p>希尔排序</p>
@@ -7,22 +10,33 @@ package org.algorithm.sort;
  * @author : 王松迪
  * 2024-03-21 11:06
  **/
-public class ShellSort extends ExampleSort {
-    @Override
-    protected void sort(Comparable[] arr) {
-        //递减区间
-        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
-            for (int j = gap; j < arr.length; j++) {
-                for(int h = j ; h >= gap && less(arr[h], arr[h - gap]); h -= gap) {
-                    exchange(arr, h, h - gap);
-//                    System.out.println("gap =" + gap + ", j = " + j +  ", h = " + h + ", h - gap =" + (h - gap));
+public class ShellSort {
+
+    public static void sort(int[] arr) {
+
+        int gap = arr.length >> 1;
+        while(gap > 1) {
+            gap >>= 1;
+            for (int i = 0; i < arr.length; i++) {
+                int gapIndex = i + gap;
+                while(gapIndex < arr.length) {
+                    int swapValue = arr[gapIndex];
+                    int gapCompareIndex = gapIndex - gap;
+                    for(; gapCompareIndex >= 0 && swapValue < arr[gapCompareIndex]; gapCompareIndex -= gap) {
+                        arr[gapCompareIndex + gap] = arr[gapCompareIndex];
+                    }
+                    arr[gapCompareIndex + gap] = swapValue;
+                    gapIndex += gap;
                 }
             }
         }
     }
     public static void main(String[] args) {
 
-        new ShellSort().run();
+//        new ShellSort().run();
+        int[] array = new Random(100).ints(0, 100).distinct().limit(100).toArray();
+        sort(array);
+        System.out.println(Arrays.toString(array));
 
 
     }
