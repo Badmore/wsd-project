@@ -9,9 +9,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        A a = new A();
-
-        System.out.println(a.a);
+        testmatcher();
     }
 
      public static class A{
@@ -47,5 +45,13 @@ public class Test {
          int i = factor == 0 ? 0 : s / factor;
          int max = Math.min(i, scope.length - 1);
          System.out.println(scope[max]);
+     }
+
+    private static final String REPLACEMENT = "*";
+     private static  void testmatcher() {
+        String input = "sdfsdfdsccv&*&*&*&*.....())()()(8923748797JHKL";
+
+
+         System.out.println(input.replaceAll("\\.", REPLACEMENT));
      }
 }
