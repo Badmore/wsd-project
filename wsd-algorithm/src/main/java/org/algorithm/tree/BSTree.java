@@ -9,7 +9,7 @@ import java.util.Random;
  * @author : 王松迪
  * 2024-03-28 09:00
  **/
-public class BinarySearchTree {
+public class BSTree {
 
     public static class Node {
         int data;
@@ -78,7 +78,7 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
 
-        BinarySearchTree binarySearchTree = new BinarySearchTree();
+        BSTree binarySearchTree = new BSTree();
         new Random(1000).ints(0, 1000).distinct().limit(999).forEach(binarySearchTree::insert);
 
         new Random(1000).ints(0, 1000).distinct().limit(100).forEach( id -> {
