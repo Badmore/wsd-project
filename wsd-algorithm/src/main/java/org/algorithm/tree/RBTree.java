@@ -7,11 +7,11 @@ package org.algorithm.tree;
  * @author : 王松迪
  * 2024-04-10 09:10
  **/
-public class BRTree<T extends Comparable<T>> {
+public class RBTree<T extends Comparable<T>> {
 
-    private BRNode<T> mRoot;
+    private RBNode<T> mRoot;
 
-    public static class BRNode<T extends Comparable<T>> {
+    public static class RBNode<T extends Comparable<T>> {
 
         private static final boolean RED   = false;
         private static final boolean BLACK = true;
@@ -20,13 +20,13 @@ public class BRTree<T extends Comparable<T>> {
 
         private T key;
 
-        private BRNode<T> left;
+        private RBNode<T> left;
 
-        private BRNode<T> right;
+        private RBNode<T> right;
 
-        private BRNode<T> parent;
+        private RBNode<T> parent;
 
-        public BRNode(boolean color, T value, BRNode<T> left, BRNode<T> right, BRNode<T> parent) {
+        public RBNode(boolean color, T value, RBNode<T> left, RBNode<T> right, RBNode<T> parent) {
             this.color = color;
             this.key = value;
             this.left = left;
@@ -54,10 +54,10 @@ public class BRTree<T extends Comparable<T>> {
      *
      * @param p 节点
      */
-    private void lt(BRNode<T> p) {
+    private void lt(RBNode<T> p) {
 
         //步骤一
-        BRNode<T> c = p.right;
+        RBNode<T> c = p.right;
         p.right = c.left;
         if(null != c.left) {
             c.left.parent = p;
@@ -94,9 +94,9 @@ public class BRTree<T extends Comparable<T>> {
      * 2. 将 p.parent 指针 赋值给 c；
      * 3. c.right = p; p.parent = c;
      */
-    private void rt(BRNode<T> p) {
+    private void rt(RBNode<T> p) {
 
-        BRNode<T> c = p.left;
+        RBNode<T> c = p.left;
         p.left = c.right;
         if(null != c.right) {
             c.right.parent = p;
@@ -117,20 +117,20 @@ public class BRTree<T extends Comparable<T>> {
         p.parent = c;
     }
 
-    private void insert(BRNode<T> node) {
+    private void insert(RBNode<T> node) {
 
         if(null == mRoot) {
             mRoot = node;
             return ;
         }
 
-        BRNode<T> temp = mRoot;
+        RBNode<T> temp = mRoot;
         while(true) {
             node.parent = temp;
             temp = node.key.compareTo(temp.key) > 0 ? temp.right : temp.left;
             if(null == temp) {
                 temp = node;
-                temp.color = BRNode.RED;
+                temp.color = RBNode.RED;
                 break;
             }
         }
@@ -153,7 +153,7 @@ public class BRTree<T extends Comparable<T>> {
      *
      * @param node
      */
-    private void insertFixUp(BRNode<T> node) {
+    private void insertFixUp(RBNode<T> node) {
 
         /**
          * 情况一：插入节点为根节点
@@ -173,9 +173,9 @@ public class BRTree<T extends Comparable<T>> {
     /**
      * 调整节点为根节点
      */
-    private boolean acquireFixRoot(BRNode<T> node) {
+    private boolean acquireFixRoot(RBNode<T> node) {
         if(null == mRoot) {
-            node.color = BRNode.BLACK;
+            node.color = RBNode.BLACK;
             this.mRoot = node;
             return true;
         }
@@ -185,8 +185,8 @@ public class BRTree<T extends Comparable<T>> {
     /**
      * 情况二，父节点为黑色，则直接插入 无需任何调整
      */
-    private boolean needFixUp(BRNode<T> node) {
-        return null != node && node.parent.color == BRNode.BLACK ;
+    private boolean needFixUp(RBNode<T> node) {
+        return null != node && node.parent.color == RBNode.BLACK ;
     }
 
 
@@ -211,29 +211,29 @@ public class BRTree<T extends Comparable<T>> {
      *
      * @param c 调整的节点
      */
-    private void innerFix(BRNode<T> c) {
+    private void innerFix(RBNode<T> c) {
 
-        while(null != c && c.parent != null && c.parent.color == BRNode.RED) {
-            BRNode<T> p = c.parent;
-            BRNode<T> gp = p.parent;
+        while(null != c && c.parent != null && c.parent.color == RBNode.RED) {
+            RBNode<T> p = c.parent;
+            RBNode<T> gp = p.parent;
             //case1
-            if(gp.left == p && gp.right != null && gp.right.color == BRNode.BLACK && c == p.left) {
+            if(gp.left == p && gp.right != null && gp.right.color == RBNode.BLACK && c == p.left) {
                 rt(gp);
-                gp.color = BRNode.RED;
-                p.color = BRNode.BLACK;
+                gp.color = RBNode.RED;
+                p.color = RBNode.BLACK;
                 c = gp;
             }
 
             //case2
-            if(gp.right == p && gp.left != null && gp.left.color == BRNode.BLACK && c == p.right) {
+            if(gp.right == p && gp.left != null && gp.left.color == RBNode.BLACK && c == p.right) {
                 lt(gp);
-                gp.color = BRNode.RED;
-                p.color = BRNode.BLACK;
+                gp.color = RBNode.RED;
+                p.color = RBNode.BLACK;
                 c = gp;
             }
 
             //case3
-            if(p == gp.left && gp.right != null && gp.right.color == BRNode.BLACK && c == p.right) {
+            if(p == gp.left && gp.right != null && gp.right.color == RBNode.BLACK && c == p.right) {
                 lt(p);
                 T key = c.key;
                 c.key = p.key;
@@ -242,7 +242,7 @@ public class BRTree<T extends Comparable<T>> {
             }
 
             //case4
-            if(p == gp.right && gp.left != null && gp.left.color == BRNode.BLACK && c == p.left) {
+            if(p == gp.right && gp.left != null && gp.left.color == RBNode.BLACK && c == p.left) {
                 rt(p);
                 T key = c.key;
                 c.key = p.key;
@@ -253,11 +253,9 @@ public class BRTree<T extends Comparable<T>> {
     }
 
 
-
-
     public void insert(T value)  {
 
-        insert(new BRNode<T>(BRNode.BLACK, value, null, null, null));
+        insert(new RBNode<T>(RBNode.BLACK, value, null, null, null));
     }
 
 }
