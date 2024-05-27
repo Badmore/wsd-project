@@ -28,7 +28,7 @@ public class MergeSort {
     private static void doSort(int[] arr, int begin, int end, int tier, String lr) {
         if(begin < end ) {
             tier++;
-            int mid = (end + begin) / 2;
+            int mid = ((end - begin) >>> 1) + begin;
             doSort(arr, begin, mid, tier, null == lr ? "左" : lr);
             doSort(arr, mid + 1, end, tier, null == lr ? "右" : lr);
             merge(arr, begin, mid, end, tier, lr);

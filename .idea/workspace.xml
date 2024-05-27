@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/graph/BaseGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/graph/DijkstraGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/graph/FloydGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/BinarySearchArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/KMPString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/KVBMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/SkipList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/test/java/ImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/test/java/KVBMatcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/tree/BRTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/tree/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/ShellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +87,16 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KMPString (1)">
-    <configuration name="ImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImageTest" />
-      <module name="wsd-project.wsd-algorithm.test" />
+  <component name="RunManager" selected="Application.RadixSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.HeapSort" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,32 +127,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVBMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wsd-project.wsd-algorithm.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KVBMatcherTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.RadixSort" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KVBMatcherTest.testMatch_HappyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wsd-project.wsd-algorithm.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KVBMatcherTest" />
-      <option name="METHOD_NAME" value="testMatch_HappyPath" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.ShellSort" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.KMPString (1)" />
         <item itemvalue="Application.KMPString" />
-        <item itemvalue="Application.ImageTest" />
-        <item itemvalue="JUnit.KVBMatcherTest" />
-        <item itemvalue="JUnit.KVBMatcherTest.testMatch_HappyPath" />
       </list>
     </recent_temporary>
   </component>

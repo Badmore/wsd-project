@@ -12,7 +12,14 @@ import java.util.Random;
  **/
 
 public class HeapSort {
-    public static void downAdjust(int[] array, int pi, int length) {
+
+    private final int[] array;
+
+    public HeapSort(int[] arr) {
+        this.array = arr;
+    }
+
+    public void downAdjust(int pi, int length) {
         //保存付节点的值，用于最后的赋值
         int temp = array[pi];
         int ci = 2 * pi + 1;
@@ -35,21 +42,46 @@ public class HeapSort {
         array[pi] = temp;
     }
 
-    public static void heapSort(int[] array) {
+    /**
+     * 堆化
+     * @param array
+     */
+    public void heapify(int[] array) {
         //构建大堆
 
         System.out.println(array.length);
         for (int i = (array.length - 1) / 2 ; i >= 0; i--) {
             System.out.println("i = " + i);
-            downAdjust(array, i, array.length);
+            downAdjust(i, array.length);
         }
 
     }
 
+
+    public int getMaxValue() {
+        if(array.length == 0) {
+            return -1;
+        }
+
+        //从堆中获取最大值，并将堆的最后一个节点放到堆的第一个节点，然后对第一个节点进行下沉操作
+        int maxValue = array[0];
+        array[0] = array[array.length - 1];
+        array[array.length - 1] = Integer.MIN_VALUE;
+        downAdjust(0, array.length - 1);
+
+        return maxValue;
+    }
+
     public static void main(String[] args) {
-        int[] array = new Random(100).ints(0, 99).limit(10).toArray();
-        heapSort(array);
+        int[] array = new Random().ints(0, 99).limit(50).distinct().toArray();
+        HeapSort heapSort = new HeapSort(array);
+        heapSort.heapify(array);
         System.out.println(Arrays.toString(array));
+
+        int count = array.length / 2;
+        while(--count >= 0) {
+            System.out.println(heapSort.getMaxValue());
+        }
 
     }
 }

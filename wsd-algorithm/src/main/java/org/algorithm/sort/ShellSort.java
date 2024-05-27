@@ -14,31 +14,27 @@ public class ShellSort {
 
     public static void sort(int[] arr) {
 
-        int gap = arr.length >> 1;
+        int gap = arr.length;
         while(gap > 1) {
             gap >>= 1;
             for (int i = 0; i < arr.length; i++) {
-                int gapIndex = i + gap;
-                while(gapIndex < arr.length) {
-                    int swapValue = arr[gapIndex];
-                    int gapCompareIndex = gapIndex - gap;
-                    for(; gapCompareIndex >= 0 && swapValue < arr[gapCompareIndex]; gapCompareIndex -= gap) {
-                        arr[gapCompareIndex + gap] = arr[gapCompareIndex];
+                int ri = i + gap;
+                while(ri < arr.length) {
+                    int rv = arr[ri];
+                    int li = ri - gap;
+                    for(; li >= 0 && rv < arr[li]; li -= gap) {
+                        arr[li + gap] = arr[li];
                     }
-                    arr[gapCompareIndex + gap] = swapValue;
-                    gapIndex += gap;
+                    arr[li + gap] = rv;
+                    ri += gap;
                 }
             }
         }
     }
     public static void main(String[] args) {
-
-//        new ShellSort().run();
         int[] array = new Random(100).ints(0, 100).distinct().limit(100).toArray();
         sort(array);
         System.out.println(Arrays.toString(array));
-
-
     }
 
 }
