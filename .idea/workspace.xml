@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/DuplicatesNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/NSumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/RemoveAssignNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NSumNumber">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration name="DuplicatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.DuplicatesNumber" />
       <module name="wsd-project.wsd-algorithm.main" />
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.HeapSort" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.LongestPalindrome" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="PATTERN" value="org.algorithm.pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.NSumNumber" />
         <item itemvalue="Application.RemoveAssignNumber" />
         <item itemvalue="Application.DuplicatesNumber" />
         <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
