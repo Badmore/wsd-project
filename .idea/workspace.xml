@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/SlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +83,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
-    <configuration name="DuplicatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.DuplicatesNumber" />
+  <component name="RunManager" selected="Application.PrefixSum">
+    <configuration name="PrefixSum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.pointer.*" />
+          <option name="PATTERN" value="org.algorithm.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.LongestPalindrome" />
+    <configuration name="PrefixSum (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.pointer.*" />
+          <option name="PATTERN" value="org.algorithm.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NSumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.NSumNumber" />
+    <configuration name="PrefixSum (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.pointer.*" />
+          <option name="PATTERN" value="org.algorithm.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.RadixSort" />
+    <configuration name="PrefixSum (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="PATTERN" value="org.algorithm.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAssignNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.RemoveAssignNumber" />
+    <configuration name="PrefixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.pointer.*" />
+          <option name="PATTERN" value="org.algorithm.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.NSumNumber" />
-        <item itemvalue="Application.RemoveAssignNumber" />
-        <item itemvalue="Application.DuplicatesNumber" />
-        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.PrefixSum" />
+        <item itemvalue="Application.PrefixSum (1)" />
+        <item itemvalue="Application.PrefixSum (5)" />
+        <item itemvalue="Application.PrefixSum (4)" />
+        <item itemvalue="Application.PrefixSum (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +185,16 @@
           <url>file://$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/DuplicatesNumber.java</url>
           <line>20</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
