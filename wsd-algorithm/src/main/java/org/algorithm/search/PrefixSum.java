@@ -1,14 +1,18 @@
 package org.algorithm.search;
 
-import java.util.Arrays;
-import java.util.Random;
-
 /**
  * <h3>wsd-project</h3>
  * <p>前缀和</p>
  *
- *  适用于原始数组不会被修改的情况下，频繁查询区间和的场景。例如查询某个分数段一共有多少个学生
- *  可以做到 O （1）
+ * 给定一个列表num，长度是n，如果想求出子列表[l, r]，都是闭区间的子列表的和，就可以用前缀和。
+ * 朴素做法很容易想到，就是从遍历区间[l, r]累加即可，显然这是O(n)复杂度，如果查询就一次两次的，当然 也可以，但如果查询次数多了，显然效率差，如果查询m次，时间复杂度会上升到O(mn)。
+ *
+ * 特性：sum(l, r) = nums[l] + nums[l + 1] + ... + nums[r-1] + nums[r]
+ *            = nums[0] + nums[1] +... + nums[l-1] + nums[l] + ... nums[r-1] + nums[r] - (nums[0] + nums[1] +...+ nums[l-1])
+ *            = preSum[r] - preSum[l-1]
+ *
+ *
+ *
  * @author : 王松迪
  * 2024-05-30 09:06
  **/
@@ -28,12 +32,7 @@ public class PrefixSum {
         return prefixSum[j+1] - prefixSum[i];
     }
 
-    public static void main(String[] args) {
-        int[] ints = new int[]{51, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100};
-        Scorer scorer = new Scorer(ints);
-        System.out.println("区间人数" + scorer.getRangeCount(50, 60));
 
-    }
 }
 
 
@@ -52,7 +51,7 @@ class Scorer {
 
         countSum = new int[count.length + 1];
         countSum[0] = 0;
-        for (int i = 1;  i < count.length; i++) {
+        for (int i = 1;  i <= count.length; i++) {
             countSum[i] = countSum[i - 1] + count[i - 1];
         }
 
@@ -60,6 +59,15 @@ class Scorer {
 
     int getRangeCount(int begin ,int end) {
         return countSum[end + 1] - countSum[begin];
+    }
+
+    public static void main(String[] args) {
+        int[] ints = new int[]{51, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100};
+        Scorer scorer = new Scorer(ints);
+        System.out.println("50 ～ 60 区间人数" + scorer.getRangeCount(50, 60));
+        System.out.println("50 ～ 90 区间人数" + scorer.getRangeCount(50, 90));
+        System.out.println("90 ～ 100 区间人数" + scorer.getRangeCount(90, 100));
+
     }
 
 }
