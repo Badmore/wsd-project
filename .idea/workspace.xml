@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/Merge2Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/PartitionLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java" afterDir="false" />
     </list>
@@ -55,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/wanba/badmore/testgit/wsd-project",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wanba/badmore/testgit/wsd-project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
@@ -82,13 +86,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DifferenceNum">
-    <configuration name="DifferenceNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.DifferenceNum" />
+  <component name="RunManager" selected="Application.PartitionLink">
+    <configuration name="Merge2Link (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.search.*" />
+          <option name="PATTERN" value="org.algorithm.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixSum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
+    <configuration name="Merge2Link (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.search.*" />
+          <option name="PATTERN" value="org.algorithm.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixSum (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
+    <configuration name="Merge2Link (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.search.*" />
+          <option name="PATTERN" value="org.algorithm.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.PrefixSum" />
+    <configuration name="Merge2Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.search.*" />
+          <option name="PATTERN" value="org.algorithm.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.search.Scorer" />
+    <configuration name="PartitionLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.PartitionLink" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.search.*" />
+          <option name="PATTERN" value="org.algorithm.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DifferenceNum" />
-        <item itemvalue="Application.Scorer" />
-        <item itemvalue="Application.PrefixSum (2)" />
-        <item itemvalue="Application.PrefixSum" />
-        <item itemvalue="Application.PrefixSum (1)" />
+        <item itemvalue="Application.PartitionLink" />
+        <item itemvalue="Application.Merge2Link" />
+        <item itemvalue="Application.Merge2Link (5)" />
+        <item itemvalue="Application.Merge2Link (4)" />
+        <item itemvalue="Application.Merge2Link (3)" />
       </list>
     </recent_temporary>
   </component>

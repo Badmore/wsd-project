@@ -71,3 +71,36 @@ class Scorer {
     }
 
 }
+
+
+class TimeSum {
+
+    private final int[][] countSum;
+
+    public TimeSum(int[][] weekTimes) {
+
+        int[][] countSum = new int[7][24 + 1];
+
+
+        for (int j = 0; j < 7; j++) {
+            countSum[j][0] = 0;
+            for (int i = 1;  i <= 24; i++) {
+                countSum[j][i] = countSum[j][i - 1] + weekTimes[j][i - 1];
+            }
+        }
+
+        this.countSum = countSum;
+
+    }
+
+    int getRangeCount(int day, int begin ,int end) {
+        return countSum[day][end + 1] - countSum[day][begin + 1];
+    }
+
+    public static void main(String[] args) {
+
+    }
+
+}
+
+
