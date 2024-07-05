@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/Merge2Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/PartitionLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/PrefixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/FindFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/MergeNLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ReverseLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/TwoPointersOfLinkedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/TwoPointersOfLinkedCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,48 +86,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitionLink">
-    <configuration name="Merge2Link (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
-      <module name="wsd-project.wsd-algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge2Link (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
-      <module name="wsd-project.wsd-algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge2Link (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
-      <module name="wsd-project.wsd-algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge2Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.Merge2Link" />
+  <component name="RunManager" selected="Application.ReverseLink">
+    <configuration name="MergeNLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.MergeNLink" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +113,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.PriorityQueue" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.ReverseLimit" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.ReverseLink" />
+      <module name="wsd-project.wsd-algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLink" />
+        <item itemvalue="Application.ReverseLimit" />
+        <item itemvalue="Application.MergeNLink" />
+        <item itemvalue="Application.PriorityQueue" />
         <item itemvalue="Application.PartitionLink" />
-        <item itemvalue="Application.Merge2Link" />
-        <item itemvalue="Application.Merge2Link (5)" />
-        <item itemvalue="Application.Merge2Link (4)" />
-        <item itemvalue="Application.Merge2Link (3)" />
       </list>
     </recent_temporary>
   </component>

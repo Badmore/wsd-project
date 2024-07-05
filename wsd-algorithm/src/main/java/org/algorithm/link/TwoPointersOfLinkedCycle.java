@@ -1,4 +1,4 @@
-package org.algorithm.pointer;
+package org.algorithm.link;
 
 /**
  * <h3>wsd-project</h3>
