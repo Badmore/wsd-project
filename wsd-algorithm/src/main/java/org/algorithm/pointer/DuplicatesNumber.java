@@ -1,5 +1,7 @@
 package org.algorithm.pointer;
 
+import java.util.Arrays;
+
 /**
  * <h3>wsd-project</h3>
  * <p>使用快慢针原地对排序后的数组中的重复元素去重</p>
@@ -12,20 +14,24 @@ public class DuplicatesNumber {
     public static void main(String[] args) {
 
         int[] arr = {1, 3, 3, 3, 4, 5};
-        for (int i = 0; i < removeDuplicates(arr); i++) {
-            System.out.print(i + ", ");
-        }
+
+        System.out.println(Arrays.toString(removeDuplicates(arr)));
+
     }
 
-    public static int removeDuplicates(int[] nums) {
-        int slow = 0, fast = 0;
+    public static int[] removeDuplicates(int[] nums) {
+
+        if(nums.length == 0) {
+            return nums;
+        }
+        int fast = 0, slow = 0;
         while(fast < nums.length) {
             if(nums[slow] != nums[fast]) {
                 nums[++slow] = nums[fast];
             }
             fast++;
         }
-        return slow + 1;
+        return Arrays.copyOf(nums, slow + 1);
     }
 
 }

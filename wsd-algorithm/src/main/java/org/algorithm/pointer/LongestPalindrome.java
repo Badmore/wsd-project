@@ -18,17 +18,13 @@ public class LongestPalindrome {
         String res = "";
         for (int i = 0; i < s.toCharArray().length; i++) {
 
-            // 奇数长度回文串
-            String odd = palindrome(s, i, i);
-            if (odd.length() > res.length()) {
-                res = odd;
-            }
-
-            //偶数长度回文串
-            String even = palindrome(s, i, i + 1);
+            String even = palindrome(s, i,
+                    //奇偶数判断
+                    i % 2 == 0 ? i : i + 1);
             if (even.length() > res.length()) {
                 res = even;
             }
+
         }
         return res;
     }
@@ -47,7 +43,7 @@ public class LongestPalindrome {
     }
 
     public static void main(String[] args) {
-        String s = "sdl;fjsdklfjjklsdhsjasdsakhdfjkghdfhgjdhfaskldjioewurowie4utkldjfg";
+        String s = "sdl;fjsdklfjjklsdhsjasdsakhdfjkghdfhgjdhfaskldjioewurowie4utkldjfg1";
         System.out.println(longestPalindrome(s));
     }
 }

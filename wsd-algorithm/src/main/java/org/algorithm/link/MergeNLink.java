@@ -1,10 +1,10 @@
 package org.algorithm.link;
 
 import com.google.gson.Gson;
+import org.algorithm.link.model.ListNode;
 import org.algorithm.sort.PriorityQueue;
 
 import java.util.Comparator;
-import java.util.stream.Stream;
 
 /**
  * <h3>wsd-project</h3>

@@ -21,25 +21,25 @@ public class SlidingWindow {
             start = 0 ,len = Integer.MAX_VALUE,
                 // 窗口内有效字符个数
                 valid = 0;
-    private final HashMap<Character, Integer> window = Maps.newHashMap(), need = Maps.newHashMap();
-    private final String input ;
+    private final HashMap<Character, Integer> slidingWindow = Maps.newHashMap(), target = Maps.newHashMap();
+    private final String source;
     private final Consumer<Character> providerExtend, providerShrink;
 
     public SlidingWindow(String input, String target) {
 
-        this.input = input;
+        this.source = input;
         for (char c : target.toCharArray()) {
-            need.put(c, need.getOrDefault(c, 0) + 1);
+            this.target.put(c, this.target.getOrDefault(c, 0) + 1);
         }
 
         providerExtend = c -> {
-            if(need.containsKey(c) && need.get(c).equals(window.get(c))) {
+            if(this.target.containsKey(c) && this.target.get(c).equals(slidingWindow.get(c))) {
                 valid++;
             }
         };
 
         providerShrink = c -> {
-            if(need.containsKey(c) && window.get(c).equals(need.get(c))) {
+            if(this.target.containsKey(c) && slidingWindow.get(c).equals(this.target.get(c))) {
                 valid--;
             }
         };
@@ -47,7 +47,7 @@ public class SlidingWindow {
     }
 
     public String minSubstring() {
-        while (right < input.length()) {
+        while (right < source.length()) {
             expend();
             while(needShrink()) {
                 adjustLen();
@@ -55,7 +55,7 @@ public class SlidingWindow {
             }
         }
 
-        return len == Integer.MAX_VALUE ? "" : input.substring(start, start + len);
+        return len == Integer.MAX_VALUE ? "" : source.substring(start, start + len);
     }
 
 
@@ -64,15 +64,15 @@ public class SlidingWindow {
      * @return true
      */
     private boolean needShrink() {
-        return valid == need.size();
+        return valid == target.size();
     }
 
     /**
      * 右指针向右滑动， 扩展窗口
      */
     private void expend() {
-        char c = input.charAt(right++);
-        window.put(c, window.getOrDefault(c, 0) + 1);
+        char c = source.charAt(right++);
+        slidingWindow.put(c, slidingWindow.getOrDefault(c, 0) + 1);
         providerExtend.accept(c);
     }
 
@@ -80,10 +80,10 @@ public class SlidingWindow {
      * 左指针向右滑动
      */
     private void shrink() {
-        char d = input.charAt(left++);
+        char d = source.charAt(left++);
         providerShrink.accept(d);
-        if(window.containsKey(d)) {
-            window.put(d, window.get(d) - 1);
+        if(slidingWindow.containsKey(d)) {
+            slidingWindow.put(d, slidingWindow.get(d) - 1);
         }
     }
 

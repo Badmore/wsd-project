@@ -1,6 +1,7 @@
 package org.algorithm.link;
 
 import com.google.gson.Gson;
+import org.algorithm.link.model.ListNode;
 
 /**
  * <h3>wsd-project</h3>

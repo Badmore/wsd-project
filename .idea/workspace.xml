@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fedaf28-5a35-4a61-824a-8a14925ec381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/FindFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/MergeNLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ReverseLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/TwoPointersOfLinkedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/TwoPointersOfLinkedCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/sort/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/RemoveNodeFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ReverseLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/model/SkipNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/FindFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/FindFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/model/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/Merge2Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/Merge2Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/MergeNLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/MergeNLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/PartitionLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/PartitionLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ReverseLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/ReverseLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/DuplicatesNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/DuplicatesNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/DifferenceNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/link/SkipList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/search/SlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +67,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wanba/badmore/testgit/wsd-project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/wanba/badmore/testgit/wsd-project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
@@ -86,13 +94,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLink">
-    <configuration name="MergeNLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.MergeNLink" />
+  <component name="RunManager" selected="Application.NSumNumber">
+    <configuration name="DuplicatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.DuplicatesNumber" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="PATTERN" value="org.algorithm.pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.PartitionLink" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.LongestPalindrome" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="PATTERN" value="org.algorithm.pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.sort.PriorityQueue" />
+    <configuration name="NSumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.pointer.NSumNumber" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.sort.*" />
+          <option name="PATTERN" value="org.algorithm.pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.ReverseLimit" />
+      <option name="MAIN_CLASS_NAME" value="org.algorithm.link.model.ReverseLimit" />
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="PATTERN" value="org.algorithm.link.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +152,7 @@
       <module name="wsd-project.wsd-algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithm.link.*" />
+          <option name="PATTERN" value="org.algorithm.link.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NSumNumber" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.DuplicatesNumber" />
         <item itemvalue="Application.ReverseLink" />
         <item itemvalue="Application.ReverseLimit" />
-        <item itemvalue="Application.MergeNLink" />
-        <item itemvalue="Application.PriorityQueue" />
-        <item itemvalue="Application.PartitionLink" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +192,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="13" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/wsd-algorithm/src/main/java/org/algorithm/pointer/DuplicatesNumber.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
