@@ -15,12 +15,13 @@ import org.algorithm.link.model.ListNode;
 public class Merge2Link {
 
 
-    private ListNode<Integer> result ;
+    private final ListNode<Integer> result ;
 
 
     public Merge2Link(ListNode<Integer> l1, ListNode<Integer> l2) {
 
 
+        //虚拟头节点
         result = new ListNode<>(Integer.MIN_VALUE);
         ListNode<Integer> p = result;
 
@@ -67,5 +68,7 @@ public class Merge2Link {
 
         System.out.println(gson.toJson( result));
     }
+
 }
+
 

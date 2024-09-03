@@ -3,7 +3,7 @@ package org.algorithm.link;
 import org.algorithm.link.model.ListNode;
 
 /**
- * 反向限价
+ * 区间反转链表
  *
  * @author 王松迪
  * @date 2024/08/03

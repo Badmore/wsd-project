@@ -39,8 +39,8 @@ public class PriorityQueue<T> {
         this.array = Arrays.copyOf(this.array, newSize);
     }
 
-    public T peek() {
-        return (T) array[0];
+    public boolean isEmpty() {
+        return size == 0;
     }
     
     public T poll()  {
@@ -55,6 +55,7 @@ public class PriorityQueue<T> {
         //顶点
         T vertex = (T) array[0];
         //让最后一个元素移动到堆顶
+        array[size] = null;
         array[0] = array[--size];
         downAdjust();
         return vertex;

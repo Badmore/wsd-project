@@ -6,7 +6,6 @@ import org.algorithm.link.model.ListNode;
  * 删除第 N 个节点，并返回头节点
  */
 public class RemoveNodeFromEnd {
-
     public static ListNode<Integer> removeNodeFromEnd(ListNode<Integer> head, int n) {
 
         ListNode<Integer> dummy = new ListNode<>(-1);
